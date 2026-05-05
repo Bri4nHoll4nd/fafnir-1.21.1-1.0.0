@@ -1,0 +1,22 @@
+// 1.21.1	2026-05-06T00:55:58.4958461	Block States: fafnir
+8e6a28c06ef7659f1d1fbe102edab61cacd5635c assets/fafnir/blockstates/blue_dirt.json
+6a8ab7d642d269f7cc0e43c83eb062c7d9715267 assets/fafnir/blockstates/blue_oak_planks.json
+abfc6006e3e7e2bf885fb96a4edb712a5b290444 assets/fafnir/blockstates/green_dirt.json
+685384827bc1e09a58219d929936334a23c446cf assets/fafnir/blockstates/green_oak_planks.json
+ffca07bfb0516ff449b9dfd5e49b82f775176141 assets/fafnir/blockstates/limestone.json
+f78446e04403eb343d8900934e57964620fe3e1e assets/fafnir/blockstates/red_dirt.json
+3ddcecd0ef46979bde606e2c28f60428afe918bf assets/fafnir/blockstates/red_oak_planks.json
+f93454cb810be420d9d6620a4bf74eaa7268e58b assets/fafnir/models/block/blue_dirt.json
+19e2a933d22cb5af449df7ff5b4987f323d4c44a assets/fafnir/models/block/blue_oak_planks.json
+72f9210558560138897246cafa762f65593b9447 assets/fafnir/models/block/green_dirt.json
+b1ae9dbb14ca11fd3562adb0bf78f0e4f9b35b6c assets/fafnir/models/block/green_oak_planks.json
+05c9528679fe9941a286dbcb2d16de4151aba84f assets/fafnir/models/block/limestone.json
+2cb4d0b63e1ae19314ee343e6c7f64d110528bf0 assets/fafnir/models/block/red_dirt.json
+de368bd0d5f92e447122be59a0a1d9fa260d6e36 assets/fafnir/models/block/red_oak_planks.json
+25a18917204e3af114100355ea920d39a2f574f4 assets/fafnir/models/item/blue_dirt.json
+4161105abe5c2b88de0b21c1ddbf226926e0aae7 assets/fafnir/models/item/blue_oak_planks.json
+6e6128a5853d7c5e67b49feee0ab19db72a2fcf3 assets/fafnir/models/item/green_dirt.json
+fa422a68afffd8e5b79984bbdee08217203cc87a assets/fafnir/models/item/green_oak_planks.json
+7b75ed956a7c91635385a88c1ffaae476ceb30e2 assets/fafnir/models/item/limestone.json
+7b7697b2c243ca33cc282b0db47a990e64216089 assets/fafnir/models/item/red_dirt.json
+44b8180758ea4fd6d790cb171d17606b2063d602 assets/fafnir/models/item/red_oak_planks.json
