@@ -1,3 +1,6 @@
-// 1.21.1	2026-05-06T00:55:58.4958461	Tags for minecraft:block mod id fafnir
+// 1.21.1	2026-05-06T16:50:14.8786491	Tags for minecraft:block mod id fafnir
 2af4568cc6fca6cbcefa569bbee1b2fd29c0ffde data/minecraft/tags/block/dirt.json
+73440414b1f443d5204999557df3cae4a22c2943 data/minecraft/tags/block/leaves.json
+c91175e5201fdf18e685ec975435c35de40db984 data/minecraft/tags/block/logs_that_burn.json
 24f965bb7344f5697e1b46fd1f8c70fd5625a5b8 data/minecraft/tags/block/mineable/pickaxe.json
+c91175e5201fdf18e685ec975435c35de40db984 data/minecraft/tags/block/oak_logs.json

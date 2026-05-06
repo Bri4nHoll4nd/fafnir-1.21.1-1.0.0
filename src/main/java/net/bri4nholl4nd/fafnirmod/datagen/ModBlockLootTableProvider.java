@@ -17,6 +17,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.LIMESTONE.get());
+        ModBlocks.COLORED_BLOCKS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_OAK_LOGS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_OAK_LEAVES.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
         ModBlocks.COLORED_OAK_PLANKS.values().forEach(defBlock ->
                 this.dropSelf(defBlock.get()));
         ModBlocks.COLORED_DIRTS.values().forEach(defBlock ->

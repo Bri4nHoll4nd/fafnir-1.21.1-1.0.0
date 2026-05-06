@@ -23,6 +23,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.LIMESTONE.get());
 
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_OAK_LOGS.values()) {
+            tag(BlockTags.OAK_LOGS).add(block.get());
+            tag(BlockTags.LOGS_THAT_BURN).add(block.get());
+        }
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_OAK_LEAVES.values()) {
+            tag(BlockTags.LEAVES).add(block.get());
+        }
         for (DeferredBlock<Block> block : ModBlocks.COLORED_DIRTS.values()) {
             tag(BlockTags.DIRT).add(block.get());
         }

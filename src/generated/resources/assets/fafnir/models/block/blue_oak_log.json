@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fafnir:block/blue_oak_log_top",
+    "side": "fafnir:block/blue_oak_log"
+  }
+}

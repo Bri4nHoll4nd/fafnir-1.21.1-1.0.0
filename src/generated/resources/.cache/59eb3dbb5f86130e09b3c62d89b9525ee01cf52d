@@ -1,8 +1,23 @@
-// 1.21.1	2026-05-06T00:55:58.4968457	Loot Tables
+// 1.21.1	2026-05-06T16:50:14.8798288	Loot Tables
 bdd2e544857b56d701f7abecf23f814a03fcbfff data/fafnir/loot_table/blocks/blue_dirt.json
+b338f4aceea17530613cbbb12e555e6335ea6f09 data/fafnir/loot_table/blocks/blue_oak_leaves.json
+c109ccc0bcac61ce06c71d3d7549f1f866107047 data/fafnir/loot_table/blocks/blue_oak_log.json
 567b41b42230c5db8a252d2062949f894032c095 data/fafnir/loot_table/blocks/blue_oak_planks.json
+9615fd26d0742af5d84fdf94656ed8897f717d87 data/fafnir/loot_table/blocks/blue_oak_wood.json
+2358a35acacfe50d31b707615cccb385b86766d2 data/fafnir/loot_table/blocks/blue_stripped_oak_log.json
+f12c42bfd70244e9e2c7915039cf2876e5c429f1 data/fafnir/loot_table/blocks/blue_stripped_oak_wood.json
 b70d3f2c3bc374fe3593c227370c780019479718 data/fafnir/loot_table/blocks/green_dirt.json
+a2f23334f81ef2d52dbb1ddbce16afc10bd25d38 data/fafnir/loot_table/blocks/green_oak_leaves.json
+84a4db7415f8684a5865f62987cea3ea9dcac2f0 data/fafnir/loot_table/blocks/green_oak_log.json
 7a112b88109aa9d106e5d37cad2496ba2bcc5af5 data/fafnir/loot_table/blocks/green_oak_planks.json
+59d5c4399e8fcd30f2eb5c235cdd2393dd9e32d7 data/fafnir/loot_table/blocks/green_oak_wood.json
+1a3c18831c3384548baa1de8140e0cc964fd642b data/fafnir/loot_table/blocks/green_stripped_oak_log.json
+04840db9f363eea5241d309a1953c4951098e023 data/fafnir/loot_table/blocks/green_stripped_oak_wood.json
 64152954316259219ac2623a2598528764325b45 data/fafnir/loot_table/blocks/limestone.json
 9b501e4ec033a26bcb8905393e624b7b712af4b5 data/fafnir/loot_table/blocks/red_dirt.json
+49a819102b733350c9ededecddfe8a242a207961 data/fafnir/loot_table/blocks/red_oak_leaves.json
+e311abb8e02c890fa049122dd72602f7a3e39584 data/fafnir/loot_table/blocks/red_oak_log.json
 da0219233af0548b7a013dbe223d2b1f9ad35306 data/fafnir/loot_table/blocks/red_oak_planks.json
+e6ecfc32d8334013b3c81965e16408ab585d1f52 data/fafnir/loot_table/blocks/red_oak_wood.json
+ed9321486a1ae6962453de44fb592bf4b02a9578 data/fafnir/loot_table/blocks/red_stripped_oak_log.json
+7ad29820f73560b90b5ae3aef3c8ed330507b310 data/fafnir/loot_table/blocks/red_stripped_oak_wood.json

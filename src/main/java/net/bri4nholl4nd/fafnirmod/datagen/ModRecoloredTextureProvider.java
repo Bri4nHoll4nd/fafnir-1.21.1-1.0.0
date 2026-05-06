@@ -40,6 +40,13 @@ public class ModRecoloredTextureProvider implements DataProvider {
     public CompletableFuture<?> run(CachedOutput cachedOutput) {
         return CompletableFuture.runAsync(() -> {
             try {
+                generateBlockTexture(cachedOutput, "oak_log");
+                generateBlockTexture(cachedOutput, "oak_log_top");
+                generateBlockTexture(cachedOutput, "oak_wood");
+                generateBlockTexture(cachedOutput, "stripped_oak_log");
+                generateBlockTexture(cachedOutput, "stripped_oak_log_top");
+                generateBlockTexture(cachedOutput, "stripped_oak_wood");
+                generateBlockTexture(cachedOutput, "oak_leaves");
                 generateBlockTexture(cachedOutput, "oak_planks");
                 generateBlockTexture(cachedOutput, "dirt");
             } catch (IOException e) {

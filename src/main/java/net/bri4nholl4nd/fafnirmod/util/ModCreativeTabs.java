@@ -33,6 +33,7 @@ public class ModCreativeTabs {
     public static final Supplier<CreativeModeTab> COLORED_BLOCKS_TAB = CREATIVE_MODE_TABS.register("fafnir_colored_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLUE_PEARL.get()))
                     .title(Component.translatable("creativetab.fafnir.fafnir_colored_blocks_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FafnirMod.MOD_ID, "fafnir_mod_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         for (String color : ModColors.COLORS.keySet()) {
                             addColorSet(output, color);
@@ -44,7 +45,12 @@ public class ModCreativeTabs {
     }
 
     private static void addColorSet(CreativeModeTab.Output output, String color) {
+        acceptBlockIfPresent(output, ModBlocks.COLORED_OAK_LOGS, color + "_oak_log");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_BLOCKS, color + "_oak_wood");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_OAK_LOGS, color + "_stripped_oak_log");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_BLOCKS, color + "_stripped_oak_wood");
         acceptBlockIfPresent(output, ModBlocks.COLORED_OAK_PLANKS, color + "_oak_planks");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_OAK_LEAVES, color + "_oak_leaves");
         acceptBlockIfPresent(output, ModBlocks.COLORED_DIRTS, color + "_dirt");
     }
 

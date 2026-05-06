@@ -28,6 +28,13 @@ public class DataGenerators {
         generator.addProvider(dataEvent.includeClient(), new ModRecoloredTextureProvider(packOutput));
 
         String[] blockBases = {
+                "oak_log",
+                "oak_log_top",
+                "oak_wood",
+                "stripped_oak_log",
+                "stripped_oak_log_top",
+                "stripped_oak_wood",
+                "oak_leaves",
                 "oak_planks",
                 "dirt"
         };
