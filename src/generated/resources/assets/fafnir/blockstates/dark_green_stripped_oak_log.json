@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fafnir:block/dark_green_stripped_oak_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fafnir:block/dark_green_stripped_oak_log"
+    },
+    "axis=z": {
+      "model": "fafnir:block/dark_green_stripped_oak_log_horizontal",
+      "x": 90
+    }
+  }
+}

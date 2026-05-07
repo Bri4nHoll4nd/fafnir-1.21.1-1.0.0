@@ -30,7 +30,16 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         for (DeferredBlock<Block> block : ModBlocks.COLORED_OAK_LEAVES.values()) {
             tag(BlockTags.LEAVES).add(block.get());
         }
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_OAK_FENCES.values()) {
+            tag(BlockTags.FENCES).add(block.get());
+        }
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_OAK_FENCE_GATES.values()) {
+            tag(BlockTags.FENCE_GATES).add(block.get());
+        }
         for (DeferredBlock<Block> block : ModBlocks.COLORED_DIRTS.values()) {
+            tag(BlockTags.DIRT).add(block.get());
+        }
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_GRASS_BLOCK.values()) {
             tag(BlockTags.DIRT).add(block.get());
         }
     }

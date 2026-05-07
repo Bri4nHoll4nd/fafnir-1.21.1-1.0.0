@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fafnir:block/orange_oak_slab"
+    },
+    "type=double": {
+      "model": "fafnir:block/orange_oak_planks"
+    },
+    "type=top": {
+      "model": "fafnir:block/orange_oak_slab_top"
+    }
+  }
+}

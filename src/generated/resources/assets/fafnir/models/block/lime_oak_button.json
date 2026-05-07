@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "fafnir:block/lime_oak_planks"
+  }
+}

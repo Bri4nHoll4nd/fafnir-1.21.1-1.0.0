@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "fafnir:block/light_brown_oak_planks"
+  }
+}

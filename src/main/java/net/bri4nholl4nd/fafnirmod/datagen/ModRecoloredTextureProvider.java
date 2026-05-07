@@ -47,8 +47,17 @@ public class ModRecoloredTextureProvider implements DataProvider {
                 generateBlockTexture(cachedOutput, "stripped_oak_log_top");
                 generateBlockTexture(cachedOutput, "stripped_oak_wood");
                 generateBlockTexture(cachedOutput, "oak_leaves");
+                generateBlockTexture(cachedOutput, "oak_sapling");
                 generateBlockTexture(cachedOutput, "oak_planks");
+                generateBlockTexture(cachedOutput, "oak_door_bottom");
+                generateBlockTexture(cachedOutput, "oak_door_top");
+                generateBlockTexture(cachedOutput, "oak_trapdoor");
                 generateBlockTexture(cachedOutput, "dirt");
+                generateBlockTexture(cachedOutput, "grass_block_side");
+                generateBlockTexture(cachedOutput, "grass_block_top");
+
+                generateItemTexture(cachedOutput, "apple");
+                generateItemTexture(cachedOutput, "oak_door");
             } catch (IOException e) {
                 throw new RuntimeException("Failed to generate recolored textures", e);
             }

@@ -1,6 +1,8 @@
-// 1.21.1	2026-05-06T16:50:14.8786491	Tags for minecraft:block mod id fafnir
-2af4568cc6fca6cbcefa569bbee1b2fd29c0ffde data/minecraft/tags/block/dirt.json
-73440414b1f443d5204999557df3cae4a22c2943 data/minecraft/tags/block/leaves.json
-c91175e5201fdf18e685ec975435c35de40db984 data/minecraft/tags/block/logs_that_burn.json
+// 1.21.1	2026-05-07T03:58:09.6376128	Tags for minecraft:block mod id fafnir
+688f03dbae8911f364bdc49c7158170e30491e70 data/minecraft/tags/block/dirt.json
+fea787153b75ef113844ec010a710c03ea775d85 data/minecraft/tags/block/fences.json
+974779e6d8c0cdd88a9ec58bfa5936dc6c56d1c4 data/minecraft/tags/block/fence_gates.json
+8bb8759517818af786a36bac8dc26530cebeaef9 data/minecraft/tags/block/leaves.json
+a00bcc7476c84251f92d8dda3e609ede4f066284 data/minecraft/tags/block/logs_that_burn.json
 24f965bb7344f5697e1b46fd1f8c70fd5625a5b8 data/minecraft/tags/block/mineable/pickaxe.json
-c91175e5201fdf18e685ec975435c35de40db984 data/minecraft/tags/block/oak_logs.json
+a00bcc7476c84251f92d8dda3e609ede4f066284 data/minecraft/tags/block/oak_logs.json

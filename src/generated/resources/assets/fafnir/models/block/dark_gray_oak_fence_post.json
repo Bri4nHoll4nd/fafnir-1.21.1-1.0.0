@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "fafnir:block/dark_gray_oak_planks"
+  }
+}

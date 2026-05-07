@@ -1,7 +1,30 @@
 {
   "values": [
     "fafnir:red_oak_leaves",
+    "fafnir:light_red_oak_leaves",
+    "fafnir:dark_red_oak_leaves",
+    "fafnir:orange_oak_leaves",
+    "fafnir:yellow_oak_leaves",
     "fafnir:green_oak_leaves",
-    "fafnir:blue_oak_leaves"
+    "fafnir:light_green_oak_leaves",
+    "fafnir:dark_green_oak_leaves",
+    "fafnir:lime_oak_leaves",
+    "fafnir:blue_oak_leaves",
+    "fafnir:light_blue_oak_leaves",
+    "fafnir:dark_blue_oak_leaves",
+    "fafnir:cyan_oak_leaves",
+    "fafnir:purple_oak_leaves",
+    "fafnir:light_purple_oak_leaves",
+    "fafnir:dark_purple_oak_leaves",
+    "fafnir:magenta_oak_leaves",
+    "fafnir:pink_oak_leaves",
+    "fafnir:brown_oak_leaves",
+    "fafnir:light_brown_oak_leaves",
+    "fafnir:dark_brown_oak_leaves",
+    "fafnir:white_oak_leaves",
+    "fafnir:light_gray_oak_leaves",
+    "fafnir:gray_oak_leaves",
+    "fafnir:dark_gray_oak_leaves",
+    "fafnir:black_oak_leaves"
   ]
 }

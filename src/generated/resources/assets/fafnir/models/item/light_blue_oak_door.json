@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fafnir:item/light_blue_oak_door"
+  }
+}

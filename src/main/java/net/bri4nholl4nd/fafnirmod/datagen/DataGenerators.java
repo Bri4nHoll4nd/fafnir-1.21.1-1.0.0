@@ -36,11 +36,25 @@ public class DataGenerators {
                 "stripped_oak_wood",
                 "oak_leaves",
                 "oak_planks",
-                "dirt"
+                "oak_sapling",
+                "oak_door_bottom",
+                "oak_door_top",
+                "oak_trapdoor",
+                "dirt",
+                "grass_block_side",
+                "grass_block_top"
+        };
+
+        String[] itemBases = {
+                "apple",
+                "oak_door"
         };
 
         for (String base : blockBases) {
             trackGeneratedTintedTextures(existingFileHelper, ModColors.COLORS, base, "block");
+        }
+        for (String base : itemBases) {
+            trackGeneratedTintedTextures(existingFileHelper, ModColors.COLORS, base, "item");
         }
 
         generator.addProvider(
@@ -56,6 +70,8 @@ public class DataGenerators {
         generator.addProvider(dataEvent.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(dataEvent.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(dataEvent.includeClient(), new ModLanguageProvider(packOutput));
+
+        generator.addProvider(dataEvent.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
     }
 
     private static void trackGeneratedTintedTextures(

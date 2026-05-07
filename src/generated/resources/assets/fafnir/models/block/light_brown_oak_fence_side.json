@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "fafnir:block/light_brown_oak_planks"
+  }
+}

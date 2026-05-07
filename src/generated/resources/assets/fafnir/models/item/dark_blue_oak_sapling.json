@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fafnir:block/dark_blue_oak_sapling"
+  }
+}
