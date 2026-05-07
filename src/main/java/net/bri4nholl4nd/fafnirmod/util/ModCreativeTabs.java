@@ -65,6 +65,29 @@ public class ModCreativeTabs {
         acceptBlockIfPresent(output, ModBlocks.COLORED_OAK_BUTTONS, color + "_oak_button");
         acceptBlockIfPresent(output, ModBlocks.COLORED_DIRTS, color + "_dirt");
         acceptBlockIfPresent(output, ModBlocks.COLORED_GRASS_BLOCK, color + "_grass_block");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_GRASS, color + "_grass");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_TALL_GRASS, color + "_tall_grass");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE, color + "_stone");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_STAIRS, color + "_stone_stairs");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_SLAB, color + "_stone_slab");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_PRESSURE_PLATE, color + "_stone_pressure_plate");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_BUTTON, color + "_stone_button");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_COBBLESTONE, color + "_cobblestone");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_COBBLESTONE_STAIRS, color + "_cobblestone_stairs");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_COBBLESTONE_SLAB, color + "_cobblestone_slab");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_COBBLESTONE_WALL, color + "_cobblestone_wall");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_SMOOTH_STONE, color + "_smooth_stone");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_SMOOTH_STONE_SLAB, color + "_smooth_stone_slab");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_BRICKS, color + "_stone_bricks");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_CRACKED_STONE_BRICKS, color + "_cracked_stone_bricks");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_BRICK_STAIRS, color + "_stone_brick_stairs");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_BRICK_SLAB, color + "_stone_brick_slab");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_STONE_BRICK_WALL, color + "_stone_brick_wall");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_CHISELED_STONE_BRICKS, color + "_chiseled_stone_bricks");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_BRICKS, color + "_bricks");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_BRICK_STAIRS, color + "_brick_stairs");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_BRICK_SLAB, color + "_brick_slab");
+        acceptBlockIfPresent(output, ModBlocks.COLORED_BRICK_WALL, color + "_brick_wall");
     }
 
     private static void addColorItemSet(CreativeModeTab.Output output, String color) {

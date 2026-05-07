@@ -30,8 +30,8 @@ public class ModLanguageProvider extends LanguageProvider {
             add(item.get(), formatName(item.getId().getPath()));
         }
 
-        add("creativetab.fafnir.fafnir_mod_tab", "Fafnir Mod");
-        add("creativetab.fafnir.fafnir_colored_blocks_tab", "Fafnir Colored Blocks");
+        add("creativetab.fafnir.fafnir_mod_tab", "Fafnir");
+        add("creativetab.fafnir.fafnir_colored_blocks_tab", "Fafnir: Colored Blocks");
     }
 
     private String formatName(String name) {

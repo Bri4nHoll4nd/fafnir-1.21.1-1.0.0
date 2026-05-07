@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "fafnir:block/dark_brown_cobblestone",
+    "side": "fafnir:block/dark_brown_cobblestone",
+    "top": "fafnir:block/dark_brown_cobblestone"
+  }
+}

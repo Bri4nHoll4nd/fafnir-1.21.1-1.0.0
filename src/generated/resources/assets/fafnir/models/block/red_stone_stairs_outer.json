@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "fafnir:block/red_stone",
+    "side": "fafnir:block/red_stone",
+    "top": "fafnir:block/red_stone"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "fafnir:block/orange_stone_bricks",
+    "side": "fafnir:block/orange_stone_bricks",
+    "top": "fafnir:block/orange_stone_bricks"
+  }
+}

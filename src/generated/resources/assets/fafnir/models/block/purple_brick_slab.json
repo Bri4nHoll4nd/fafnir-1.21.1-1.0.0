@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "fafnir:block/purple_bricks",
+    "side": "fafnir:block/purple_bricks",
+    "top": "fafnir:block/purple_bricks"
+  }
+}

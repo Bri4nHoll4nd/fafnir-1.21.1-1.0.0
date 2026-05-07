@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "fafnir:block/dark_green_bricks",
+    "side": "fafnir:block/dark_green_bricks",
+    "top": "fafnir:block/dark_green_bricks"
+  }
+}

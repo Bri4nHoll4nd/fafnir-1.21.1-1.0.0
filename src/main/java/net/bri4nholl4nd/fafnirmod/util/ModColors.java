@@ -38,7 +38,7 @@ public class ModColors {
         COLORS.put("light_gray", 0xB8B8B8);
         COLORS.put("gray", 0x8A8A8A);
         COLORS.put("dark_gray", 0x333333);
-        COLORS.put("black", 0x1A1A1A);
+        COLORS.put("black", 0x242424);
     }
 
     private ModColors() {}

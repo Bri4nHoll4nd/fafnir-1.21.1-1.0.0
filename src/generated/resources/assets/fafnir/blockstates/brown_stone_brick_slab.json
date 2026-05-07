@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fafnir:block/brown_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "fafnir:block/brown_stone_bricks"
+    },
+    "type=top": {
+      "model": "fafnir:block/brown_stone_brick_slab_top"
+    }
+  }
+}

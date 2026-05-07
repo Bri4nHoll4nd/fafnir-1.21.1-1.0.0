@@ -35,7 +35,7 @@ public class ModConfiguredFeatures {
 
             register(context, entry.getValue(), Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                     BlockStateProvider.simple(ModBlocks.COLORED_OAK_LOGS.get(color + "_oak_log").get()),
-                    new StraightTrunkPlacer(3, 2, 0),
+                    new StraightTrunkPlacer(4, 3, 0),
                     BlockStateProvider.simple(ModBlocks.COLORED_OAK_LEAVES.get(color + "_oak_leaves").get()),
                     new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
                     new TwoLayersFeatureSize(1, 0, 1)).build());

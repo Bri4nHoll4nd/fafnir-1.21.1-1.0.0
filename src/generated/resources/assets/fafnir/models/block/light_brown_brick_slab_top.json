@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "fafnir:block/light_brown_bricks",
+    "side": "fafnir:block/light_brown_bricks",
+    "top": "fafnir:block/light_brown_bricks"
+  }
+}

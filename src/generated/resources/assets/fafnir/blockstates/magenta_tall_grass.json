@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "fafnir:block/magenta_tall_grass_bottom"
+    },
+    "half=upper": {
+      "model": "fafnir:block/magenta_tall_grass_top"
+    }
+  }
+}

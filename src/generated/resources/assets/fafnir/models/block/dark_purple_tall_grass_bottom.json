@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "fafnir:block/dark_purple_tall_grass_bottom"
+  }
+}

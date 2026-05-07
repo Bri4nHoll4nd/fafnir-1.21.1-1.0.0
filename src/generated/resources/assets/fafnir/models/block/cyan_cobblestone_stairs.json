@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "fafnir:block/cyan_cobblestone",
+    "side": "fafnir:block/cyan_cobblestone",
+    "top": "fafnir:block/cyan_cobblestone"
+  }
+}

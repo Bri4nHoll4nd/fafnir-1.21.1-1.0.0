@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fafnir:block/blue_stone_slab"
+    },
+    "type=double": {
+      "model": "fafnir:block/blue_stone"
+    },
+    "type=top": {
+      "model": "fafnir:block/blue_stone_slab_top"
+    }
+  }
+}

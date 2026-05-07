@@ -4,7 +4,6 @@ import net.bri4nholl4nd.fafnirmod.FafnirMod;
 import net.bri4nholl4nd.fafnirmod.block.ModBlocks;
 import net.bri4nholl4nd.fafnirmod.item.ModItems;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
@@ -34,6 +33,17 @@ public class ModItemModelProvider extends ItemModelProvider {
             }
 
             buttonItem(block, planksBlock);
+        });
+        ModBlocks.COLORED_STONE_BUTTON.forEach((name, block) -> {
+            String stone = name.replace("_button", "");
+            DeferredBlock<Block> stoneBlock = ModBlocks.COLORED_STONE.get(stone);
+
+            if (stoneBlock == null) {
+                throw new IllegalStateException("Missing stone block for button item: " + stone
+                        + ". Available stone keys: " + ModBlocks.COLORED_STONE.keySet());
+            }
+
+            buttonItem(block, stoneBlock);
         });
     }
 

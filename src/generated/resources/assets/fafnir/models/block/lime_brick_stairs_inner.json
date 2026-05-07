@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "fafnir:block/lime_bricks",
+    "side": "fafnir:block/lime_bricks",
+    "top": "fafnir:block/lime_bricks"
+  }
+}

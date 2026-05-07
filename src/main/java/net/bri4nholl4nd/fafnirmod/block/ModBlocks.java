@@ -37,6 +37,29 @@ public class ModBlocks {
     public static final Map<String, DeferredBlock<Block>> COLORED_OAK_BUTTONS = new LinkedHashMap<>();
     public static final Map<String, DeferredBlock<Block>> COLORED_DIRTS = new LinkedHashMap<>();
     public static final Map<String, DeferredBlock<Block>> COLORED_GRASS_BLOCK = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_GRASS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_TALL_GRASS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_STAIRS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_SLAB = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_PRESSURE_PLATE = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_BUTTON = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_COBBLESTONE = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_COBBLESTONE_STAIRS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_COBBLESTONE_SLAB = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_COBBLESTONE_WALL = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_SMOOTH_STONE = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_SMOOTH_STONE_SLAB = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_BRICKS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_CRACKED_STONE_BRICKS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_BRICK_STAIRS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_BRICK_SLAB = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_STONE_BRICK_WALL = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_CHISELED_STONE_BRICKS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_BRICKS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_BRICK_STAIRS = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_BRICK_SLAB = new LinkedHashMap<>();
+    public static final Map<String, DeferredBlock<Block>> COLORED_BRICK_WALL = new LinkedHashMap<>();
 
     static {
         for (String color : ModColors.COLORS.keySet()) {
@@ -53,9 +76,27 @@ public class ModBlocks {
             registerColoredDoor(color, "oak_door", BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR), COLORED_OAK_DOORS, BlockSetType.OAK);
             registerColoredTrapDoor(color, "oak_trapdoor", BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR), COLORED_OAK_TRAPDOORS, BlockSetType.OAK);
             registerColoredPressurePlate(color, "oak_pressure_plate", BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE), COLORED_OAK_PRESSURE_PLATES, BlockSetType.OAK);
-            registerColoredButton(color, "oak_button", BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON), COLORED_OAK_BUTTONS, BlockSetType.OAK);
+            registerColoredButton(color, "oak_button", BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON), COLORED_OAK_BUTTONS, BlockSetType.OAK, 30);
             registerColoredBlock(color, "dirt", BlockBehaviour.Properties.ofFullCopy(Blocks.DIRT), COLORED_DIRTS);
-            registerColoredBlock(color, "grass_block", BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK), COLORED_GRASS_BLOCK);
+            registerColoredGrassBlock(color, "grass_block");
+            registerColoredBlockAndStairs(color, "stone", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE), "stone_stairs", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_STAIRS), COLORED_STONE, COLORED_STONE_STAIRS);
+            registerColoredSlab(color, "stone_slab", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_SLAB), COLORED_STONE_SLAB);
+            registerColoredPressurePlate(color, "stone_pressure_plate", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_PRESSURE_PLATE), COLORED_STONE_PRESSURE_PLATE, BlockSetType.STONE);
+            registerColoredButton(color, "stone_button", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BUTTON), COLORED_STONE_BUTTON, BlockSetType.STONE, 20);
+            registerColoredBlockAndStairs(color, "cobblestone", BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE), "cobblestone_stairs", BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_STAIRS), COLORED_COBBLESTONE, COLORED_COBBLESTONE_STAIRS);
+            registerColoredSlab(color, "cobblestone_slab", BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_SLAB), COLORED_COBBLESTONE_SLAB);
+            registerColoredWall(color, "cobblestone_wall", BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_WALL), COLORED_COBBLESTONE_WALL);
+            registerColoredBlock(color, "smooth_stone", BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE), COLORED_SMOOTH_STONE);
+            registerColoredSlab(color, "smooth_stone_slab", BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE_SLAB), COLORED_SMOOTH_STONE_SLAB);
+            registerColoredBlockAndStairs(color, "stone_bricks", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS), "stone_brick_stairs", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS), COLORED_STONE_BRICKS, COLORED_STONE_BRICK_STAIRS);
+            registerColoredBlock(color, "cracked_stone_bricks", BlockBehaviour.Properties.ofFullCopy(Blocks.CRACKED_STONE_BRICKS), COLORED_CRACKED_STONE_BRICKS);
+            registerColoredSlab(color, "stone_brick_slab", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB), COLORED_STONE_BRICK_SLAB);
+            registerColoredWall(color, "stone_brick_wall", BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_WALL), COLORED_STONE_BRICK_WALL);
+            registerColoredBlock(color, "chiseled_stone_bricks", BlockBehaviour.Properties.ofFullCopy(Blocks.CHISELED_STONE_BRICKS), COLORED_CHISELED_STONE_BRICKS);
+            registerColoredBlockAndStairs(color, "bricks", BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS), "brick_stairs", BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_STAIRS), COLORED_BRICKS, COLORED_BRICK_STAIRS);
+            registerColoredSlab(color, "brick_slab", BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_SLAB), COLORED_BRICK_SLAB);
+            registerColoredWall(color, "brick_wall", BlockBehaviour.Properties.ofFullCopy(Blocks.BRICK_WALL), COLORED_BRICK_WALL);
+            registerColoredShortAndTallGrass(color, "grass");
         }
     }
 
@@ -185,10 +226,37 @@ public class ModBlocks {
         map.put(name, block);
     }
 
-    private static void registerColoredButton(String color, String baseName, BlockBehaviour.Properties properties, Map<String, DeferredBlock<Block>> map, BlockSetType blockSetType) {
+    private static void registerColoredButton(String color, String baseName, BlockBehaviour.Properties properties, Map<String, DeferredBlock<Block>> map, BlockSetType blockSetType, Integer ticks) {
         String name = color + "_" + baseName;
 
-        DeferredBlock<Block> block = registerBlock(name, () -> new ButtonBlock(blockSetType, 20, properties));
+        DeferredBlock<Block> block = registerBlock(name, () -> new ButtonBlock(blockSetType, ticks, properties));
+
+        map.put(name, block);
+    }
+
+    private static void registerColoredGrassBlock(String color, String baseName) {
+        String name = color + "_" + baseName;
+
+        DeferredBlock<Block> block = registerBlock(name, () -> new GrassBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+
+        COLORED_GRASS_BLOCK.put(name, block);
+    }
+
+    private static void registerColoredShortAndTallGrass(String color, String baseName) {
+        String shortGrassName = color + "_" + baseName;
+        String tallGrassName = color + "_tall_" + baseName;
+
+        DeferredBlock<Block> tallGrass = registerBlock(tallGrassName, () -> new DoublePlantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS)));
+        DeferredBlock<Block> shortGrass = registerBlock(shortGrassName, () -> new ModShortGrass(BlockBehaviour.Properties.ofFullCopy(Blocks.SHORT_GRASS), tallGrass));
+
+        COLORED_GRASS.put(shortGrassName, shortGrass);
+        COLORED_TALL_GRASS.put(tallGrassName, tallGrass);
+    }
+
+    private static void registerColoredWall(String color, String baseName, BlockBehaviour.Properties properties, Map<String, DeferredBlock<Block>> map) {
+        String name = color + "_" + baseName;
+
+        DeferredBlock<Block> block = registerBlock(name, () -> new WallBlock(properties));
 
         map.put(name, block);
     }

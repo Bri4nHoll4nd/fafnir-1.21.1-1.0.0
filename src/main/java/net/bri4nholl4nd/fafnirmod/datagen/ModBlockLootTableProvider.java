@@ -53,7 +53,52 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
             this.add(defBlock.get(), block -> createGrassLikeDrops(defBlock.get(), ModBlocks.COLORED_DIRTS.get(color + "_dirt").get()));
         });
-
+        ModBlocks.COLORED_GRASS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_TALL_GRASS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_STONE.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_STONE_STAIRS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_STONE_SLAB.values().forEach(defBlock ->
+                this.add(defBlock.get(), block -> createSlabItemTable(defBlock.get())));
+        ModBlocks.COLORED_STONE_PRESSURE_PLATE.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_STONE_BUTTON.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_COBBLESTONE.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_COBBLESTONE_STAIRS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_COBBLESTONE_SLAB.values().forEach(defBlock ->
+                this.add(defBlock.get(), block -> createSlabItemTable(defBlock.get())));
+        ModBlocks.COLORED_COBBLESTONE_WALL.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_SMOOTH_STONE.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_SMOOTH_STONE_SLAB.values().forEach(defBlock ->
+                this.add(defBlock.get(), block -> createSlabItemTable(defBlock.get())));
+        ModBlocks.COLORED_STONE_BRICKS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_CRACKED_STONE_BRICKS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_STONE_BRICK_STAIRS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_STONE_BRICK_SLAB.values().forEach(defBlock ->
+                this.add(defBlock.get(), block -> createSlabItemTable(defBlock.get())));
+        ModBlocks.COLORED_STONE_BRICK_WALL.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_CHISELED_STONE_BRICKS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_BRICKS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_BRICK_STAIRS.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
+        ModBlocks.COLORED_BRICK_SLAB.values().forEach(defBlock ->
+                this.add(defBlock.get(), block -> createSlabItemTable(defBlock.get())));
+        ModBlocks.COLORED_BRICK_WALL.values().forEach(defBlock ->
+                this.dropSelf(defBlock.get()));
 //        add(ModBlocks.TEMPLATEIUM_ORE.get(),
 //                block -> createOreDrop(ModBlocks.TEMPLATEIUM_ORE.get(), ModItems.RAW_TEMPLATEIUM.get()));
     }

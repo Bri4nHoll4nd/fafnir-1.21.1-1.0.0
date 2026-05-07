@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fafnir:block/magenta_stone_slab"
+    },
+    "type=double": {
+      "model": "fafnir:block/magenta_stone"
+    },
+    "type=top": {
+      "model": "fafnir:block/magenta_stone_slab_top"
+    }
+  }
+}

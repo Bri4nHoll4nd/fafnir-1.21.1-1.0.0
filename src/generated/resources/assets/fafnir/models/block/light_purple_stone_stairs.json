@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "fafnir:block/light_purple_stone",
+    "side": "fafnir:block/light_purple_stone",
+    "top": "fafnir:block/light_purple_stone"
+  }
+}

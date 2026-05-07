@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "fafnir:block/yellow_bricks",
+    "side": "fafnir:block/yellow_bricks",
+    "top": "fafnir:block/yellow_bricks"
+  }
+}

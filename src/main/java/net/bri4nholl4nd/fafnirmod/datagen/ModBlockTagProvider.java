@@ -42,5 +42,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         for (DeferredBlock<Block> block : ModBlocks.COLORED_GRASS_BLOCK.values()) {
             tag(BlockTags.DIRT).add(block.get());
         }
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_COBBLESTONE_WALL.values()) {
+            tag(BlockTags.WALLS).add(block.get());
+        }
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_STONE_BRICK_WALL.values()) {
+            tag(BlockTags.WALLS).add(block.get());
+        }
+        for (DeferredBlock<Block> block : ModBlocks.COLORED_BRICK_WALL.values()) {
+            tag(BlockTags.WALLS).add(block.get());
+        }
     }
 }

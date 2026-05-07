@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fafnir:block/light_gray_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "fafnir:block/light_gray_cobblestone"
+    },
+    "type=top": {
+      "model": "fafnir:block/light_gray_cobblestone_slab_top"
+    }
+  }
+}

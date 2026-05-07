@@ -19,6 +19,40 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 public class DataGenerators {
+    public static final String[] BLOCK_BASES = {
+            "oak_log",
+            "oak_log_top",
+            "oak_wood",
+            "stripped_oak_log",
+            "stripped_oak_log_top",
+            "stripped_oak_wood",
+            "oak_leaves",
+            "oak_planks",
+            "oak_sapling",
+            "oak_door_bottom",
+            "oak_door_top",
+            "oak_trapdoor",
+            "dirt",
+            "grass_block_side",
+            "grass_block_top",
+            "stone",
+            "cobblestone",
+            "smooth_stone",
+            "smooth_stone_slab_side",
+            "bricks",
+            "stone_bricks",
+            "chiseled_stone_bricks",
+            "cracked_stone_bricks",
+            "grass",
+            "tall_grass_bottom",
+            "tall_grass_top"
+    };
+
+    public static final String[] ITEM_BASES = {
+            "apple",
+            "oak_door"
+    };
+
     public static void gatherData(GatherDataEvent dataEvent) {
         DataGenerator generator = dataEvent.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
@@ -27,33 +61,34 @@ public class DataGenerators {
 
         generator.addProvider(dataEvent.includeClient(), new ModRecoloredTextureProvider(packOutput));
 
-        String[] blockBases = {
-                "oak_log",
-                "oak_log_top",
-                "oak_wood",
-                "stripped_oak_log",
-                "stripped_oak_log_top",
-                "stripped_oak_wood",
-                "oak_leaves",
-                "oak_planks",
-                "oak_sapling",
-                "oak_door_bottom",
-                "oak_door_top",
-                "oak_trapdoor",
-                "dirt",
-                "grass_block_side",
-                "grass_block_top"
-        };
+//        String[] blockBases = {
+//                "oak_log",
+//                "oak_log_top",
+//                "oak_wood",
+//                "stripped_oak_log",
+//                "stripped_oak_log_top",
+//                "stripped_oak_wood",
+//                "oak_leaves",
+//                "oak_planks",
+//                "oak_sapling",
+//                "oak_door_bottom",
+//                "oak_door_top",
+//                "oak_trapdoor",
+//                "dirt",
+//                "grass_block_side",
+//                "grass_block_top",
+//                "stone"
+//        };
+//
+//        String[] itemBases = {
+//                "apple",
+//                "oak_door"
+//        };
 
-        String[] itemBases = {
-                "apple",
-                "oak_door"
-        };
-
-        for (String base : blockBases) {
+        for (String base : BLOCK_BASES) {
             trackGeneratedTintedTextures(existingFileHelper, ModColors.COLORS, base, "block");
         }
-        for (String base : itemBases) {
+        for (String base : ITEM_BASES) {
             trackGeneratedTintedTextures(existingFileHelper, ModColors.COLORS, base, "item");
         }
 

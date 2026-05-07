@@ -40,24 +40,32 @@ public class ModRecoloredTextureProvider implements DataProvider {
     public CompletableFuture<?> run(CachedOutput cachedOutput) {
         return CompletableFuture.runAsync(() -> {
             try {
-                generateBlockTexture(cachedOutput, "oak_log");
-                generateBlockTexture(cachedOutput, "oak_log_top");
-                generateBlockTexture(cachedOutput, "oak_wood");
-                generateBlockTexture(cachedOutput, "stripped_oak_log");
-                generateBlockTexture(cachedOutput, "stripped_oak_log_top");
-                generateBlockTexture(cachedOutput, "stripped_oak_wood");
-                generateBlockTexture(cachedOutput, "oak_leaves");
-                generateBlockTexture(cachedOutput, "oak_sapling");
-                generateBlockTexture(cachedOutput, "oak_planks");
-                generateBlockTexture(cachedOutput, "oak_door_bottom");
-                generateBlockTexture(cachedOutput, "oak_door_top");
-                generateBlockTexture(cachedOutput, "oak_trapdoor");
-                generateBlockTexture(cachedOutput, "dirt");
-                generateBlockTexture(cachedOutput, "grass_block_side");
-                generateBlockTexture(cachedOutput, "grass_block_top");
+                for (String base : DataGenerators.BLOCK_BASES) {
+                    generateBlockTexture(cachedOutput, base);
+                }
+//                generateBlockTexture(cachedOutput, "oak_log");
+//                generateBlockTexture(cachedOutput, "oak_log_top");
+//                generateBlockTexture(cachedOutput, "oak_wood");
+//                generateBlockTexture(cachedOutput, "stripped_oak_log");
+//                generateBlockTexture(cachedOutput, "stripped_oak_log_top");
+//                generateBlockTexture(cachedOutput, "stripped_oak_wood");
+//                generateBlockTexture(cachedOutput, "oak_leaves");
+//                generateBlockTexture(cachedOutput, "oak_sapling");
+//                generateBlockTexture(cachedOutput, "oak_planks");
+//                generateBlockTexture(cachedOutput, "oak_door_bottom");
+//                generateBlockTexture(cachedOutput, "oak_door_top");
+//                generateBlockTexture(cachedOutput, "oak_trapdoor");
+//                generateBlockTexture(cachedOutput, "dirt");
+//                generateBlockTexture(cachedOutput, "grass_block_side");
+//                generateBlockTexture(cachedOutput, "grass_block_top");
+//                generateBlockTexture(cachedOutput, "stone");
 
-                generateItemTexture(cachedOutput, "apple");
-                generateItemTexture(cachedOutput, "oak_door");
+                for (String base : DataGenerators.ITEM_BASES) {
+                    generateItemTexture(cachedOutput, base);
+                }
+
+//                generateItemTexture(cachedOutput, "apple");
+//                generateItemTexture(cachedOutput, "oak_door");
             } catch (IOException e) {
                 throw new RuntimeException("Failed to generate recolored textures", e);
             }

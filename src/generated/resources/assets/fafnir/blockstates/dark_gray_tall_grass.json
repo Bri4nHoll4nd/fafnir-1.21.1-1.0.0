@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "fafnir:block/dark_gray_tall_grass_bottom"
+    },
+    "half=upper": {
+      "model": "fafnir:block/dark_gray_tall_grass_top"
+    }
+  }
+}

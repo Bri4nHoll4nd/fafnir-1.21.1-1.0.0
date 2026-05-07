@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "fafnir:block/white_cobblestone",
+    "side": "fafnir:block/white_cobblestone",
+    "top": "fafnir:block/white_cobblestone"
+  }
+}

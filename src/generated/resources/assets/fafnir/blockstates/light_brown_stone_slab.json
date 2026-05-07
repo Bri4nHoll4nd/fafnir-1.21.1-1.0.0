@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fafnir:block/light_brown_stone_slab"
+    },
+    "type=double": {
+      "model": "fafnir:block/light_brown_stone"
+    },
+    "type=top": {
+      "model": "fafnir:block/light_brown_stone_slab_top"
+    }
+  }
+}
